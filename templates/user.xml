@@ -1,0 +1,8 @@
+<templateSet group="user">
+  <template name="chunks" value="def chunks(l, n):&#10;    &quot;&quot;&quot;Yield successive n-sized chunks from l.&quot;&quot;&quot;&#10;    chunk = []&#10;    for item in l:&#10;        while len(chunk) &lt; n:&#10;            chunk.append(item)&#10;        yield chunk&#10;        chunk = []&#10;    if len(chunk) &gt; 0:&#10;        yield chunk" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+      <option name="Python_Class" value="false" />
+    </context>
+  </template>
+</templateSet>
